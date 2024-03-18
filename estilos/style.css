@@ -4,6 +4,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 260px;
+    height: 530px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.603);
+}
+
+div#foto {
+    background: url(../imagens/entrada.jpg) center bottom no-repeat;
+    background-size: cover;
+    height: 200px;
 }
 
 /* Paleta de cores.
