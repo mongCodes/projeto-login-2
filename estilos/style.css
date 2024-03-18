@@ -9,6 +9,8 @@
 
 body {
     background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
 }
 
 main {
@@ -36,6 +38,13 @@ div#foto {
     background: url(../imagens/entrada.jpg) center bottom no-repeat;
     background-size: cover;
     height: 200px;
+    display: block;
+}
+
+div#formu {
+    padding: 10px;
+    display: block;
+    
 }
 
 /* Paleta de cores.
