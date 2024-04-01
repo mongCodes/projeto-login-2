@@ -34,12 +34,12 @@
 
     section#login > div#foto {
         float: right;
-        width: 40%;
+        width: 45%;
         height: 100%;
     }
     section#login > div#formu {
         float: left;
-        width: 60%;
+        width: 55%;
         height: 100%;
     }
 
